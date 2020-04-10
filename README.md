@@ -5,5 +5,7 @@ Collection of few iOS example projects
 2. I'm Rich
 3. Magic8 Ball
 4. Quizzler
+5. AutoLayout calc
+
 
 
