@@ -1,2 +1,9 @@
 # iOS-examples
-Collection of some iOS example projects
+Collection of few iOS example projects
+
+1. Dicee App
+2. I'm Rich
+3. Magic8 Ball
+4. Quizzler
+
+
