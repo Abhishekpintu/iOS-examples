@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var questionNumber : Int = 0
     var score : Int = 0
     
+    @IBOutlet weak var progressWidth: NSLayoutConstraint!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var progressBar: UIView!
@@ -48,8 +49,7 @@ nextQuestion()
     func updateUI() {
         scoreLabel.text = "Score : \(score)"
         progressLabel.text = "\(questionNumber + 1)/13"
-        progressBar.frame.size.width = (view.frame.size.width / 13) * CGFloat(questionNumber + 1)
-        print(  (view.frame.size.width / 13) * CGFloat(questionNumber + 1))
+        progressWidth.constant = (view.frame.size.width / 13) * CGFloat(questionNumber)
     }
     
 
