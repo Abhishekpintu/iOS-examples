@@ -6,6 +6,7 @@ Collection of few iOS example projects
 3. Magic8 Ball
 4. Quizzler
 5. AutoLayout calc
+6. weather App
 
 
 
